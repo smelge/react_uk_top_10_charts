@@ -10,6 +10,9 @@ img{
   height: 100px;
   margin: 0 25px 0 0;
   float:right;
+  border-left:2px solid black;
+  border-right:2px solid black;
+  box-shadow: -5px 5px rgba(155,155,155,0.7);
 }
 
 a{
@@ -27,13 +30,14 @@ a{
 }
 
 .song{
-  background: #cccccc;
+  /* background: #cccccc; */
+  background-image: linear-gradient(White,LightGray);
   border:2px solid white;
   margin: 0 0 10px 0;
   border-radius:15px;
   display: block;
-  height:100px;
-  padding:0;
+  padding:10px;
+  box-shadow: -5px 5px DarkGray;
 }
 
 .song:hover{
