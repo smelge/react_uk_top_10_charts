@@ -2,31 +2,77 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+h2{
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img{
+  height: 100px;
+  margin: 0 25px 0 0;
+  float:right;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  text-decoration:none;
+  color:black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chart-container{
+  background: white;
+  padding:15px;
+}
+
+.track-list{
+  background:white;
+}
+
+.song{
+  background: #cccccc;
+  border:2px solid white;
+  margin: 0 0 10px 0;
+  border-radius:15px;
+  display: block;
+  height:100px;
+  padding:0;
+}
+
+.song:hover{
+  background:white;
+  border:2px solid #cccccc;
+}
+
+.position-box{
+  display: inline-block;
+  border-right: 2px solid #999999;
+  font-size: 40px;
+  width: 10%;
+  height:100px;
+  text-align: center;
+  line-height:100px;
+  padding:0;
+  margin-top:-15px;
+}
+
+.info-box{
+  display: inline-block;
+  width:65%;
+}
+
+.artist-name{
+  display:inline-block;
+  font-size: 12px;
+  border-bottom: 2px solid #999999;
+  padding: 8px 15px;
+}
+
+.song-title{
+  display:inline-block;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.album-art{
+  width: 20%;
+  display: inline-block;
+  float:right;
 }
